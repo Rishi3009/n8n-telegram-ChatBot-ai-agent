@@ -49,5 +49,4 @@ The workflow allows users to:
 
 ---
 
-## 📁 Folder Structure
 
