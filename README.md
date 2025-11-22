@@ -1,15 +1,15 @@
-# n8n Telegram AI Agent – Inventory + Email Automation
+# n8n Telegram AI Agent – GoogleSheet Data + Email Automation
 
 This project is an end-to-end automation built using **n8n**, combining:
 - AI Agent (LLM)
 - Telegram Bot
-- Google Sheets Inventory Database
+- Google Sheets Database
 - Gmail Email Automation
 
 The workflow allows users to:
 - Chat with a Telegram bot
-- Retrieve inventory data from Google Sheets
-- Automatically send emails containing inventory data in HTML format
+- Retrieve data from Google Sheets
+- Automatically send emails containing data in HTML format
 - Generate dynamic email subjects and content using the AI Agent
 
 ---
@@ -22,7 +22,7 @@ The workflow allows users to:
 - Decides when to call tools (Google Sheets, Gmail)
 
 ### 📊 Google Sheets Integration
-- Fetches real inventory data
+- Fetches real data
 - Data automatically formatted into HTML tables
 - No spreadsheet ID or range required inside the chat
 
@@ -43,9 +43,9 @@ The workflow allows users to:
 |----------------|---------|
 | **n8n** | Automation workflow engine |
 | **Telegram Bot API** | Chatbot communication |
-| **Google Sheets** | Inventory database |
+| **Google Sheets** | database |
 | **Gmail API** | Sending emails |
-| **AI Agent (LLM)** | Natural language understanding and tool triggering |
+| **AI Agent (LLM)** | Natural language Model (google gemini ) ,|
 
 ---
 
